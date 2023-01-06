@@ -1,5 +1,5 @@
 # CricketAPI
-Website is live at https://cricketapi.netlify.app/
+Website is live at https://cricketapi.netlify.app/ \n
 Use https://cricketapi.netlify.app/scores to fetching Json data
 
 This is an Unofficial API and Free API 
