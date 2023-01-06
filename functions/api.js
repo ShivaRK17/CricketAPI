@@ -5,9 +5,12 @@ const serverless = require("serverless-http")
 const app = express()
 const PORT = process.env.PORT || 3000;
 const url = `https://www.espn.in/cricket/scores`;
+const cors = require('cors')
 
 const router = express.Router()
-  
+app.use(cors({
+    origin:'*',
+}))
 router.get('/',(req,res)=>{
     res.json({
         "Project":"Cricket API",
